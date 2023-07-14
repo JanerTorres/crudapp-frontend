@@ -99,9 +99,10 @@ class App extends Component {
   render() {
     const { form } = this.state;
     return (
-      <div className="CrudApp">
+      <div className="CrudApp main ">
+        <div className='title'><h1>Aplicación Crud de Productos</h1></div>
         <br />
-        <button className="btn btn-success" onClick={() => {this.setState({form: null, tipoModal: 'agregar'}); this.modalAgregar()}}>Agregar Producto</button>
+        <button className="btn btn-success btn-add" onClick={() => {this.setState({form: null, tipoModal: 'agregar'}); this.modalAgregar()}}>Agregar Producto</button>
         <br /> <br />
         <table className='table'>
           <thead>
