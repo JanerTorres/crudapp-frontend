@@ -1,3 +1,11 @@
+# CrudApp Frontend
+## (Submódulo)
+Este repositorio es un submódulo de la aplicación CrudApp, el cual contiene todo el desarrollo del Front-end. El repositorio principal está ubicado en el siguiente url:
+
+- `https://github.com/JanerTorres/CrudApp.git`
+
+La siguiente es la documentación base para la ejecución, el compilado y el despliegue de una aplicación desarrollada en React, sin embargo, todo el instructivo de configuración y ejecución completa de CrudApp está ubicada en el archivo README.md del repositorio principal.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
